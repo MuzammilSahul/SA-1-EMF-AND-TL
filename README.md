@@ -192,6 +192,8 @@ At that point, add a short-circuited or open-circuited stub to cancel any remain
 Outcome
 
 The line + stub combination transforms the complex load into 50 Ω, achieving perfect matching.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3e510390-a52a-4edc-af42-d53da320bda5" />
+
 
 ## 6. Sample Problem With Solution
 Problem
