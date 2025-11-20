@@ -1,4 +1,4 @@
-# SMITH CHART BASICS AND HOW SMITH CHART HELPS IN RF (Radio Frequency) Engineering
+# SMITH CHART BASICS AND HOW SMITH CHART HELPS IN COMMUNICATION ENGINEERING
 
 ## SMITH CHART
 ---
@@ -155,12 +155,14 @@ When moving toward the load:
 - Stronger intuition: A solid foundation helps you visualize how signals behave on a transmission line.
 
 ## 📘 Smith Chart – Basics, Case Study, and Applications
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/059b0872-a1fd-4409-9581-b7bc1c89fde1" />
+
 
 
 
 ##  Case Study: Transmission Line Matching
 Problem Statement
-![Smith Chart — Case A](images/smith_caseA.png)
+
 
 An RF engineer needs to match a load impedance of:
 
@@ -222,6 +224,9 @@ $$
 A magnitude of 0.33 indicates moderate mismatch.
 
 ## 7. How the Smith Chart is Used in Communication Systems
+
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/22134e2e-4adc-40ea-991d-fff358bb75ef" />
+
 ### Impedance Matching
 
 Ensures maximum power transfer between:
