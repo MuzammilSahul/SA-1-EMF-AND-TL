@@ -195,6 +195,13 @@ The line + stub combination transforms the complex load into 50 Ω, achieving pe
 
 ## 6. Sample Problem With Solution
 Problem
+A load has impedance:
+
+$$
+Z_L = 100 - j25\ \Omega
+$$
+
+Find the reflection coefficient for a 50 Ω system.
 
 Use:
 
