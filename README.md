@@ -134,13 +134,12 @@ These allow graphical impedance transformations.
 
 When moving toward the generator:
 
-Move clockwise
+-Move clockwise 
 
-Move clockwise
 
 When moving toward the load:
 
-Move counter-clockwise
+-Move counter-clockwise
 
-Move counter-clockwise
+
 
