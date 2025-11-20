@@ -6,7 +6,8 @@ The Smith Chart is a graphical tool used in RF and microwave engineering to repr
 
 <img width="2416" height="3030" alt="image" src="https://github.com/user-attachments/assets/6f05b893-b96d-4878-90df-c3095feb5be6" />
 ---
-## 📌 Where Smith Chart Is Used
+
+##📌Where Smith Chart Is Used
 ---
 1. RF (Radio Frequency) Engineering
 
