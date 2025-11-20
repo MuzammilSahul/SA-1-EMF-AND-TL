@@ -7,10 +7,10 @@ The Smith Chart is a graphical tool used in RF and microwave engineering to repr
 <img width="2416" height="3030" alt="image" src="https://github.com/user-attachments/assets/6f05b893-b96d-4878-90df-c3095feb5be6" />
 
 
-##📌Where Smith Chart Is Used
+## 📌Where Smith Chart Is Used
 ---
 
-###1. RF (Radio Frequency) Engineering
+### 1. RF (Radio Frequency) Engineering
 
 The Smith Chart is heavily used in RF circuits where signals operate at high frequencies (MHz–GHz).
 Used for:
@@ -23,7 +23,7 @@ Used for:
 
 .Transmission line analysis
 
-###2. Microwave Engineering
+### 2. Microwave Engineering
 
 At microwave frequencies, transmission line effects are very strong.
 
@@ -35,7 +35,7 @@ Used for:
 
 .Microwave component design (couplers, dividers)
 
-###3. Antenna Engineering
+### 3. Antenna Engineering
 
 The Smith Chart helps analyze howantennas interact with transmission lines.
 Used for:
@@ -48,7 +48,7 @@ Used for:
 
 .Broadband antenna design
 
-###4. Communication Systems
+### 4. Communication Systems
 High-frequency communication systems rely on Smith Charts to ensure efficient power transfer.
 Used in:
 
@@ -58,7 +58,7 @@ Used in:
 
 .Radar systems
 
-###5. Transmission Line Design
+### 5. Transmission Line Design
 
 Smith Chart helps visualize how impedance changes across a line.
 Used for:
@@ -67,16 +67,16 @@ Used for:
 .Stub tuning (single or double stub)
 .Studying reflections & standing waves
 
-###6. Filter & Network Design
+### 6. Filter & Network Design
 
 RF filters and matching networks require precise reactance control.
 Used for:
 
-.L-section, Pi, T matching networks
-.Passive RF filter design
-.Stability circle plotting in amplifiers
+. L-section, Pi, T matching networks
+. Passive RF filter design
+. Stability circle plotting in amplifiers
 
-###7. Education & Research
+### 7. Education & Research
 
 Smith Charts are widely used in teaching EM waves, transmission lines, and RF circuits.
 
