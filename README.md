@@ -222,7 +222,7 @@ $$
 Magnitude:
 
 $$
-|\Gamma| \approx 0.33
+|\Gamma = \approx 0.33
 $$
 ​
 
