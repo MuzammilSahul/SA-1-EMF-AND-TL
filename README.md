@@ -80,6 +80,17 @@ Used for:
 
 Smith Charts are widely used in teaching EM waves, transmission lines, and RF circuits.
 
+## USAGE AND PURPOSE
 ---
+| Field                 | Purpose                                  |
+| --------------------- | ---------------------------------------- |
+| RF Engineering        | Impedance matching & amplifier design    |
+| Microwave Engineering | Transmission line & waveguide design     |
+| Antenna Engineering   | Antenna matching & VSWR optimization     |
+| Communications        | High-frequency system matching           |
+| Transmission Lines    | Reflection & standing-wave analysis      |
+| Filter Design         | Designing reactive networks              |
+| Teaching              | Understanding complex impedance behavior |
+
 
 
