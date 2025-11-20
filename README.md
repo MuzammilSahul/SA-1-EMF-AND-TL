@@ -94,9 +94,9 @@ Smith Charts are widely used in teaching EM waves, transmission lines, and RF ci
 
 ## BASICS OF SMITH CHART:
 ---
-### 1. Introduction
 
-The Smith Chart plots the reflection coefficient
+
+### 1.The Smith Chart plots the reflection coefficient
 
 The reflection coefficient is:
 
