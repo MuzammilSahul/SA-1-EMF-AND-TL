@@ -224,6 +224,8 @@ $$
 Magnitude:
 
 A magnitude of 0.33 indicates moderate mismatch.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ec00729d-ab75-433b-bd6d-00ce3de32349" />
+
 
 
 
@@ -280,7 +282,8 @@ The Smith Chart simplifies complex RF and microwave analysis by converting imped
 
 REFERENCES:
 1. National Instruments Tutorials
-. "Introduction to the Smith Chart"Keysight (formerly Agilent) 2.Application
+. "Introduction to the Smith Chart"Keysight (formerly Agilent)
+2.Application
 Notes
 AN 154: "The Smith Chart - Fundamentals
 and Applications"
