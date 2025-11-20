@@ -97,33 +97,12 @@ Smith Charts are widely used in teaching EM waves, transmission lines, and RF ci
 
 The Smith Chart plots the reflection coefficient
 
-Γ
-=
-𝑍
-𝐿
-−
-𝑍
-0
-𝑍
-𝐿
-+
-𝑍
-0
-Γ=
-Z
-L
-	​
+The normalized impedance is:
 
-+Z
-0
-	​
+$$
+z = \frac{Z}{Z_0}
+$$
 
-Z
-L
-	​
-
-−Z
-0
 	​
 
 	​
@@ -132,17 +111,12 @@ L
 on the complex plane. It converts the complex impedance plane (R + jX) into a normalized 2D map.
 
 ### 2. Normalized Impedance
-𝑧
-=
-𝑍
-𝑍
-0
-z=
-Z
-0
-	​
+The normalized impedance is:
 
-Z
+$$
+z = \frac{Z}{Z_0}
+$$
+
 	​
 
 
@@ -161,10 +135,12 @@ These allow graphical impedance transformations.
 When moving toward the generator:
 
 Move clockwise
+
 Move clockwise
 
 When moving toward the load:
 
 Move counter-clockwise
+
 Move counter-clockwise
 
