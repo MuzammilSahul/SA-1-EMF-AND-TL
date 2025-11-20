@@ -221,13 +221,6 @@ $$
 
 Magnitude:
 
-$$
-\Gamma = 0.33
-$$
-​
-
-
-
 A magnitude of 0.33 indicates moderate mismatch.
 
 ## 7. How the Smith Chart is Used in Communication Systems
