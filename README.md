@@ -92,5 +92,79 @@ Smith Charts are widely used in teaching EM waves, transmission lines, and RF ci
 | Filter Design         | Designing reactive networks              |
 | Teaching              | Understanding complex impedance behavior |
 
+## BASICS OF SMITH CHART:
+### 1. Introduction
 
+The Smith Chart plots the reflection coefficient
+
+Γ
+=
+𝑍
+𝐿
+−
+𝑍
+0
+𝑍
+𝐿
++
+𝑍
+0
+Γ=
+Z
+L
+	​
+
++Z
+0
+	​
+
+Z
+L
+	​
+
+−Z
+0
+	​
+
+	​
+
+
+on the complex plane. It converts the complex impedance plane (R + jX) into a normalized 2D map.
+
+### 2. Normalized Impedance
+𝑧
+=
+𝑍
+𝑍
+0
+z=
+Z
+0
+	​
+
+Z
+	​
+
+
+Normalization allows reuse of the same Smith Chart for any system.
+
+### 3. Constant Resistance & Reactance Circles
+
+Constant resistance → circles centered on horizontal axis.
+
+Constant reactance → arcs intersecting at the rightmost point.
+
+These allow graphical impedance transformations.
+
+### 4. Movement on the Chart
+
+When moving toward the generator:
+
+Move clockwise
+Move clockwise
+
+When moving toward the load:
+
+Move counter-clockwise
+Move counter-clockwise
 
