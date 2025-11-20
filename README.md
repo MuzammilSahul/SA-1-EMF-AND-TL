@@ -135,12 +135,12 @@ These allow graphical impedance transformations.
 
 When moving toward the generator:
 
-- Move clockwise 
+→  Move clockwise 
 
 
 When moving toward the load:
 
-- Move counter-clockwise
+→  Move counter-clockwise
 
 ## Why Basics Matter for the Smith Chart 
 ---
@@ -154,130 +154,27 @@ When moving toward the load:
 
 - Stronger intuition: A solid foundation helps you visualize how signals behave on a transmission line.
 
-📘 Smith Chart – Basics, Case Study, and Applications
-
-(GitHub-Ready Markdown)
-
-## 1. Introduction
-
-The Smith Chart is a graphical tool used to analyze and design RF and microwave circuits. It maps complex impedances onto a normalized 2D plane, helping engineers quickly visualize transmission line behavior.
-
-## 2. Reflection Coefficient
-
-The Smith Chart is based on the reflection coefficient:
-
-Γ
-=
-𝑍
-𝐿
-−
-𝑍
-0
-𝑍
-𝐿
-+
-𝑍
-0
-Γ=
-Z
-L
-	​
-
-+Z
-0
-	​
-
-Z
-L
-	​
-
-−Z
-0
-	​
-
-	​
-
-## 3. Normalized Impedance
-
-Before plotting on the Smith Chart, impedance is normalized using:
-
-𝑧
-=
-𝑍
-𝑍
-0
-z=
-Z
-0
-	​
-
-Z
-	​
+## 📘 Smith Chart – Basics, Case Study, and Applications
 
 
-Normalization allows a single chart to work for any characteristic impedance.
 
-## 4. Basic Features of the Smith Chart
-4.1 Constant Resistance Circles
-
-Appear as circles centered on the horizontal axis.
-
-4.2 Constant Reactance Arcs
-
-Appear as arcs intersecting the rightmost edge of the chart.
-
-4.3 Movement on the Chart
-
-Toward Generator → Clockwise
-
-Toward Load → Counter-clockwise
-
-## 5. Case Study: Transmission Line Matching
+##  Case Study: Transmission Line Matching
 Problem Statement
+![Smith Chart — Case A](images/smith_caseA.png)
 
 An RF engineer needs to match a load impedance of:
 
-𝑍
-𝐿
-=
-25
-+
-𝑗
-50
- 
-Ω
-Z
-L
-	​
-
-=25+j50 Ω
-
-to a 50-Ω system using a short transmission line.
+𝑍𝐿=25+𝑗50 Ω to a 50-Ω system using a short transmission line.
 
 Step 1 – Normalize the Impedance
-𝑧
-𝐿
-=
-25
-+
-𝑗
-50
-50
-=
-0.5
-+
-𝑗
-1
-z
-L
-	​
+Input impedance of a transmission line:
 
-=
-50
-25+j50
-	​
+Input impedance of a transmission line:
 
-=0.5+j1
+$$
+Z_{in} = Z_0 \frac{Z_L + j Z_0 \tan(\beta l)}{Z_0 + j Z_L \tan(\beta l)}
+$$
+
 Step 2 – Plot on Smith Chart
 
 Locate point 0.5 + j1 on the chart.
@@ -297,171 +194,75 @@ The line + stub combination transforms the complex load into 50 Ω, achieving pe
 ## 6. Sample Problem With Solution
 Problem
 
-A load impedance is:
+Use:
 
-𝑍
-𝐿
-=
-100
-−
-𝑗
-25
- 
-Ω
-Z
-L
-	​
+$$
+\Gamma = \frac{Z_L - Z_0}{Z_L + Z_0}
+$$
 
-=100−j25 Ω
+Substitute:
 
-Find the reflection coefficient.
+$$
+\Gamma = \frac{(100 - j25) - 50}{(100 - j25) + 50}
+$$
 
-Solution
+$$
+= \frac{50 - j25}{150 - j25}
+$$
 
-Step 1 – Apply the formula
+Magnitude:
 
-Γ
-=
-𝑍
-𝐿
-−
-𝑍
-0
-𝑍
-𝐿
-+
-𝑍
-0
-Γ=
-Z
-L
-	​
-
-+Z
-0
-	​
-
-Z
-L
-	​
-
-−Z
-0
-	​
-
-	​
+$$
+|\Gamma| \approx 0.33
+$$
+​
 
 
-Where 
-𝑍
-0
-=
-50
- 
-Ω
-Z
-0
-	​
-
-=50 Ω.
-
-Step 2 – Substitute
-
-Γ
-=
-(
-100
-−
-𝑗
-25
-)
-−
-50
-(
-100
-−
-𝑗
-25
-)
-+
-50
-Γ=
-(100−j25)+50
-(100−j25)−50
-	​
-
-=
-50
-−
-𝑗
-25
-150
-−
-𝑗
-25
-=
-150−j25
-50−j25
-	​
-
-
-Step 3 – Convert to magnitude
-
-Approximate result:
-
-∣
-Γ
-∣
-≈
-0.33
-∣Γ∣≈0.33
 
 A magnitude of 0.33 indicates moderate mismatch.
 
 ## 7. How the Smith Chart is Used in Communication Systems
-7.1 Impedance Matching
+### Impedance Matching
 
 Ensures maximum power transfer between:
 
--Antennas
+- Antennas
 
--Transmission lines
+- Transmission lines
 
--RF amplifiers
+- RF amplifiers
 
-7.2 Antenna Tuning
+### Antenna Tuning
 
 Used to match antenna impedance to the transmitter/receiver for:
 
--Wi-Fi
+- Wi-Fi
 
--LTE / 5G
+- LTE / 5G
 
--Satellite links
-
-7.3 VSWR & Return Loss Calculation
-
+- Satellite links
+### VSWR & Return Loss Calculation
 - Enables visualization of:
 
 - Voltage Standing Wave Ratio (VSWR)
 
--Reflected power
+- Reflected power
 
-7.4 Designing RF Networks
+ Designing RF Networks
 
-Helps create:
+## Helps create:
 
 - Filters
 
 - Matching networks
 
-Amplifier input/output stages
+### Amplifier input/output stages
 
-7.5 Performance Optimization
+ Performance Optimization
 
 Used in base stations, mobile devices, and radar systems for efficient signal propagation.
 
-## 8. Conclusion
+##  Conclusion
 
 The Smith Chart simplifies complex RF and microwave analysis by converting impedances into an intuitive graphical form. It is widely used in modern communication systems for matching, tuning, and performance optimization.
 
