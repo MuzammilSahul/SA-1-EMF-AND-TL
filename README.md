@@ -15,11 +15,11 @@ The Smith Chart is a graphical tool used in RF and microwave engineering to repr
 The Smith Chart is heavily used in RF circuits where signals operate at high frequencies (MHz–GHz).
 Used for:
 
-.Impedance matching
+- Impedance matching
 
-.Designing RF amplifiers
+- Designing RF amplifiers
 
-.Tuning RF filters
+- Tuning RF filters
 
 .Transmission line analysis
 
@@ -29,52 +29,52 @@ At microwave frequencies, transmission line effects are very strong.
 
 Used for:
 
-.Waveguide design
+- Waveguide design
 
-.Microstrip/stripline circuit design
+- Microstrip/stripline circuit design
 
-.Microwave component design (couplers, dividers)
+- Microwave component design (couplers, dividers)
 
 ### 3. Antenna Engineering
 
 The Smith Chart helps analyze howantennas interact with transmission lines.
 Used for:
 
-.Antenna impedance matching
+- Antenna impedance matching
 
-.Feeding network design
+- Feeding network design
 
-.Optimizing VSWR
+- Optimizing VSWR
 
-.Broadband antenna design
+- Broadband antenna design
 
 ### 4. Communication Systems
 High-frequency communication systems rely on Smith Charts to ensure efficient power transfer.
 Used in:
 
-.WiFi, Bluetooth, 5G
+- WiFi, Bluetooth, 5G
 
-.Satellite communication
+- Satellite communication
 
-.Radar systems
+- Radar systems
 
 ### 5. Transmission Line Design
 
 Smith Chart helps visualize how impedance changes across a line.
 Used for:
 
-.Determining line length for matching
-.Stub tuning (single or double stub)
-.Studying reflections & standing waves
+- Determining line length for matching
+- Stub tuning (single or double stub)
+- Studying reflections & standing waves
 
 ### 6. Filter & Network Design
 
 RF filters and matching networks require precise reactance control.
 Used for:
 
-. L-section, Pi, T matching networks
-. Passive RF filter design
-. Stability circle plotting in amplifiers
+- L-section, Pi, T matching networks
+- Passive RF filter design
+- Stability circle plotting in amplifiers
 
 ### 7. Education & Research
 
@@ -97,10 +97,10 @@ Smith Charts are widely used in teaching EM waves, transmission lines, and RF ci
 
 The Smith Chart plots the reflection coefficient
 
-The normalized impedance is:
+The reflection coefficient is:
 
 $$
-z = \frac{Z}{Z_0}
+\Gamma = \frac{Z_L - Z_0}{Z_L + Z_0}
 $$
 
 	​
