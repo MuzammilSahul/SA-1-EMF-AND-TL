@@ -195,7 +195,7 @@ The line + stub combination transforms the complex load into 50 Ω, achieving pe
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3e510390-a52a-4edc-af42-d53da320bda5" />
 
 
-## 6. Sample Problem With Solution
+##  Sample Problem With Solution
 Problem
 A load has impedance:
 
@@ -225,7 +225,9 @@ Magnitude:
 
 A magnitude of 0.33 indicates moderate mismatch.
 
-## 7. How the Smith Chart is Used in Communication Systems
+
+
+##  How the Smith Chart is Used in Communication Systems
 
 <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/22134e2e-4adc-40ea-991d-fff358bb75ef" />
 
@@ -272,5 +274,19 @@ Used in base stations, mobile devices, and radar systems for efficient signal pr
 ##  Conclusion
 
 The Smith Chart simplifies complex RF and microwave analysis by converting impedances into an intuitive graphical form. It is widely used in modern communication systems for matching, tuning, and performance optimization.
+
+
+
+
+REFERENCES:
+1. National Instruments Tutorials
+. "Introduction to the Smith Chart"Keysight (formerly Agilent) 2.Application
+Notes
+AN 154: "The Smith Chart - Fundamentals
+and Applications"
+3.Chatgpt
+
+
+
 
 
